@@ -1,0 +1,97 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration file="C:\Users\Jezaah\Desktop\DOCTORADUS\SEMESTRE 1\BEIFI Proyecto\Software 1\Articulos\Programas\BEIFI_SoftwareModelo1.prj" location="C:\Users\Jezaah\Desktop\DOCTORADUS\SEMESTRE 1\BEIFI Proyecto\Software 1\Articulos\Programas" name="BEIFI_SoftwareModelo1" target="target.mlapps" target-name="Package App">
+    <param.appname>BEIFI_SoftwareModelo1</param.appname>
+    <param.authnamewatermark>Jezaau Oswaldosky</param.authnamewatermark>
+    <param.email>jsandoval@citedi.mx</param.email>
+    <param.company>CITEDI-IPN</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Muestra del modelo 1 mas simple para demostrar la carga y descarga de una bateria</param.summary>
+    <param.description>El presente programa es capaz de mostrar la forma de simular la carga y descarga de una bateria desde un parametro.</param.description>
+    <param.screenshot>C:\Users\Jezaah\AppData\Local\Temp\tp2f03ce55_f088_4af2_884c_3d6a73d9f609.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>dcb271db-9574-417d-b99b-e6a285d0a9bd</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\BEIFI_SoftwareModelo2.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\BEIFI_SoftwareMenu.mlapp</file>
+      <file>${PROJECT_ROOT}\BEIFI_SoftwareModelo1.mlapp</file>
+      <file>${PROJECT_ROOT}\citedi_logo.png</file>
+      <file>${PROJECT_ROOT}\ecuacion1.png</file>
+      <file>${PROJECT_ROOT}\ecuacion2.png</file>
+      <file>${PROJECT_ROOT}\ecuacion3.png</file>
+      <file>${PROJECT_ROOT}\ecuacion4.png</file>
+      <file>${PROJECT_ROOT}\ecuacion5.png</file>
+      <file>${PROJECT_ROOT}\IPN_logo.png</file>
+      <file>${PROJECT_ROOT}\Modelo1Circuito.png</file>
+      <file>${PROJECT_ROOT}\Modelo1Circuito2.png</file>
+      <file>${PROJECT_ROOT}\Modelo2Circuito.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Jezaah\Desktop\DOCTORADUS\SEMESTRE 1\BEIFI Proyecto\Software 1\Articulos" name="Programas" optional="false">C:\Users\Jezaah\Desktop\DOCTORADUS\SEMESTRE 1\BEIFI Proyecto\Software 1\Articulos\Programas</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2020b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
